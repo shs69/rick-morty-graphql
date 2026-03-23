@@ -3,7 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { GET_CHARACTERS } from "@/apollo/queries";
 import { HeroCard } from "@/components/hero-card";
-import { LastPageProvider, useLastPage } from "@/components/page-provider";
+import { useLastPage } from "@/components/page-provider";
 import {
 	Pagination,
 	PaginationContent,
